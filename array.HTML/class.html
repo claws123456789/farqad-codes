@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title></title>
+</head>
+<p id="f"></p> 
+<p id="a"></p> 
+<p id="r"></p>
+<body>
+<script>
+
+class student {
+    constructor(name,age){
+       
+        this.name=name
+        this.age=age
+    
+ }
+  school() {
+    return "city international school"
+  }     
+
+
+
+}
+a=new student("farqad",11)
+document.getElementById("f").innerHTML="my name is " + a.name
+document.getElementById("a").innerHTML="my age is " + a.age
+document.getElementById("r").innerHTML=a.school()
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

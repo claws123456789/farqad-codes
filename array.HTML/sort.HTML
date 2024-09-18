@@ -1,0 +1,32 @@
+<html
+<head>
+<title></title>
+</head>
+<button onclick = "a()">acending</button></button>
+<button onclick="d()">decending</button>
+<p id="s"></p>
+<body>
+ 
+<script>
+
+var array = [100 , 30 , 20 ,5 ,1 , 3]
+document.getElementById("s").innerHTML = array
+function a(){
+            array.sort(function(a,b){return a-b});
+            document.getElementById("s").innerHTML = array;
+}
+
+function d(){
+              array.sort(function(a,b){return b-a});
+              document.getElementById("s").innerHTML = array;
+}
+
+
+</script>    
+
+
+
+
+
+</body>
+</html>
