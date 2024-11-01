@@ -23,6 +23,19 @@
      color:blue;
 
 }
+.carousel-container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+       }
+       .footer{
+      color:red;
+      position:fixed;
+      bottom:0;
+      width: 100%;
+     background-color: black;
+     text-align: center;
+       }
 
  </style>
 
@@ -38,13 +51,67 @@
     <a href="contact.HTML">Contact us</a>
     <a href="contact.HTML">About us</a>
     <a href="gallery.HTML">Gallery</a>
+
+</div>
+<center><h1> My favourite planets- </h1></center>
+      <div class="carousel-container">
+             <img class="myslide" src="d.jpeg" height="300" width="300">
+             <img class="myslide" src="sat.jpeg" height="300" width="300">
+             <img class="myslide" src="earth.jpeg" height="300" width="300">
+             <img class="myslide" src="plu.jpeg" height="300" width="300">
+             <img class="myslide" src="sun.jpeg" height="300" width="300">
+     
+            </div>
+            <h1> The solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. There are five officially recognized dwarf planets in our solar system: Ceres, Pluto, Haumea, Makemake, and Eris.</h1>
+      <script>
+      var index=0;
+      function slider(){
+          var i;
+          var x= document.getElementsByClassName("myslide");
+          for (i=0;i<x.length;i++){
+               x[i].style.display="none";
+          }
+           index++;
+           if(index>x.length){
+              index=1;
+           }
+           x[index-1].style.display="block";
+            setTimeout(slider,2000);
+      }
+      slider()
+   </script>
+<div class="footer">
+<p>@copy all rights and reserved by farqad maniyar</p>
 </div>
 
-
-
-
-
 </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
 
 
 
