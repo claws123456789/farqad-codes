@@ -1,0 +1,132 @@
+<html>
+<head>
+ <style>
+.topnav {
+
+    overflow:hidden;
+    background-color:#333;
+}
+.topnav a {
+    float:left;
+     color:#1affa3;
+     text-align:center;
+     padding:14px 16px;
+     text-decoration:none;
+     font-size:17px;
+}
+.topnav a:hover {
+    background-color:red;
+    color:yellow;
+}
+.topnav a:active {
+     background-color:black;
+     color:blue;
+
+}
+.carousel-container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+       }
+       .footer{
+      color:red;
+      position:fixed;
+      bottom:0;
+      width: 100%;
+     background-color: black;
+     text-align: center;
+       }
+
+ </style>
+
+
+
+
+
+<title></title>
+</head>
+<body>
+    <div class="topnav">
+    <a class="active" href="home.HTML">Home</a>
+    <a href="videos.HTML">videos</a>
+    <a href="contact.HTML">About us</a>
+    <a href="gallery.HTML">Gallery</a>
+
+</div>
+<center><h1> My favourite animals- </h1></center>
+      <div class="carousel-container">
+             <img class="myslide" src="s.jpeg" height="300" width="300">
+             <img class="myslide" src="r.jpg" height="300" width="300">
+             <img class="myslide" src="e.jpeg" height="300" width="300">
+             <img class="myslide" src="t.jpeg" height="300" width="300">
+             <img class="myslide" src="p.jpeg" height="300" width="300">
+     
+            </div>
+            <h1> What is an animal? Animals are multicellular eukaryotes whose cells are bound together by collagen. Animals dominate human conceptions of life on Earth because of their size, diversity, abundance, and mobility. The presence of muscles and mobility is one of the primary characteristics of the animal kingdom.</h1>
+      <script>
+      var index=0;
+      function slider(){
+          var i;
+          var x= document.getElementsByClassName("myslide");
+          for (i=0;i<x.length;i++){
+               x[i].style.display="none";
+          }
+           index++;
+           if(index>x.length){
+              index=1;
+           }
+           x[index-1].style.display="block";
+            setTimeout(slider,2000);
+      }
+      slider()
+   </script>
+<div class="footer">
+<p>@copy all rights and reserved by farqad maniyar</p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
