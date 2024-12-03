@@ -38,3 +38,10 @@ elif BMI <=34.9:
     print("you are severely over weight")
 elif BMI <=39.9:
     print("you are obese")
+
+num = int(input("enter any number"))
+if num%2==0:
+ print("even")
+
+else:
+    print("odd")
