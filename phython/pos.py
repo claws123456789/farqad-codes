@@ -23,7 +23,7 @@ else:
 
 
 num=int(input("enter a number"))
-if 6%2==0:
+if %2==0:
    print("even number")
 
 else:
