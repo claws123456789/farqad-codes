@@ -29,3 +29,11 @@ array_num = arr.array('i',[1, 2, 3, 4, 3, 2 ])
 print(array_num)
 print(array_num.count(3))
 
+
+my_dict={'name':'Harrison','age':'10','class':'5'}
+print(my_dict['name'])
+my_dict['age']=10
+print(my_dict)
+my_dict['gender']="Male"
+print(my_dict)
+
