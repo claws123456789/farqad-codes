@@ -5,7 +5,13 @@ class fruitquiz():
         self.fruit={'1':'I',
                             '2':'II',
                              '3':'III',
-                             '4':'IIII'}
+                             '4':'IIII',
+                             '5':'IV',
+                             '6':'V',
+                             '7':'VI',
+                             '8':'VII',
+                             '9':'VIII'
+                             '10';'X'}
     def quiz(self):
              while (True):
                       roman, number = random.choice(list(self.fruit.items()))
