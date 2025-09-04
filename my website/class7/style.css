@@ -1,0 +1,26 @@
+*{
+    font-size: 15 px;
+    font-weight: 100;
+
+}
+h3{
+    color: aqua;
+    background-color: brown;
+}
+h4{
+    color: darkred;
+    background-color: aliceblue;
+}
+.myclass{
+    color: aquamarine;
+    background-color: blueviolet;
+}
+#myid{
+    color: rgb(195, 188, 202);
+    background-color: blue;
+
+}
+h5,p{
+    color: rgb(88, 51, 2);
+    background-color: rgb(243, 79, 79);
+}
