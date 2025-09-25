@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: rgb(0, 136, 255);
+}
+
+h1 {
+    color: aqua;
+}
+a{
+    color: coral;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
+}
+ul > li{
+    font-weight: bold;
+}
+h1 + p{
+    background-color: rgb(201, 219, 235);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(140, 3, 26);
+
+}
+ul li:hover{
+    color: aqua;
+}
+ul li:nth-child(3) {
+    background-color: beige;
+}
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+ul li::before {
+    content: "⚽⚽⚽";
+}
+a::after {
+    content: "⚽🏃";
+}
+p::first-letter{
+    font-size: 200%;
+    color: red;
+}
