@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>guess the other multiplier if first one is 5</p>
+    <button type="button" onclick="myfunctions()">click me to get the product</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        var b = 5;
+        function myfunctions(){
+            var a = 4;
+            document.getElementById("demo").innerHTML = b * a;
+        }
+        document.getElementById("demo1").innerHTML = a;
+    </script>
+</body>
+</html>
