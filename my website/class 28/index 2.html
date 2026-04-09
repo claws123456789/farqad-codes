@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>this demonstrates how to catch error</p>
+
+    <div id="error_message"></div>
+
+    <script>
+        try {
+           addalert("welcome guest");
+        }
+        catch(err) {
+
+            document.getElementById("error_message").innerHTML = err.message;
+        }
+
+
+    </script>
+    
+</body>
+</html>
