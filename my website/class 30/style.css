@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:rgb(249, 241, 91) ;
+    font-family: "babloo tamma 2" ,cursive ;
+    
+}
+
+.m-heading {
+    font-family: "roboto slab" , serif;
+ }
+
+ .navigation-link {
+    border: 2px solid transparent;
+ }
+
+ .navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid rgb(254, 182, 49);
+    transition: 0.5s ease;
+ }
